@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 //import App from './App';
 import Hello from './React/Hello-World'
+import Propiedades from './React/Propiedades'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -16,7 +17,8 @@ ReactDOM.render(
 
   */
 
-  <Hello />,
+  // <Hello />,
+  <Propiedades name = "Sara" />,
   document.getElementById('root')
 
 );
