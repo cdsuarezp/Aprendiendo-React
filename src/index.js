@@ -4,7 +4,8 @@ import './index.css';
 //import App from './App';
 //import Hello from './React/Hello-World'
 //import Propiedades from './React/Propiedades'
-import Clock from './React/Estados'
+//import Clock from './React/Estados'
+import Hooks from './React/Hooks';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -20,7 +21,8 @@ ReactDOM.render(
 
   // <Hello />,
   //<Propiedades name = "Sara" />,
-  <Clock />,
+  //<Clock />,
+  <Hooks />,
   document.getElementById('root')
 
 );
